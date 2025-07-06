@@ -66,7 +66,7 @@ def user():
             found_user.email = email # change users email
             db.session.commit()    # if want to save changes
             flash("Email was saved!")
-
+#edit 
         else:
             if "email" in session:
                 email = session["email"]
